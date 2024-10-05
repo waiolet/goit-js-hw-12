@@ -1,5 +1,8 @@
 import axios from 'axios';
 
+const API_KEY = '46332021-f156325159d295bd8ceb1a335';
+const BASE_URL = 'https://pixabay.com/api/';
+
 export async function fetchData(inputSearch) {
     const searchParams = new URLSearchParams({
         key: "46332021-f156325159d295bd8ceb1a335",
